@@ -123,3 +123,17 @@ footer {
     font-size: 0.9em;
     color: #aaa;
   }
+
+.titulo-mujer{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.buzo{grid-area: buzo;}
+.buzo1{grid-area: buzo1;}
+.buzo2{grid-area: buzo2;}
+
+.ropa{display: grid;
+    grid-template-areas:
+    "buzo buzo1 buzo2";
+}
