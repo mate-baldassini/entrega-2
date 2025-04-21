@@ -10,7 +10,9 @@
     background-color: #000000;
     padding: 10px;
 }
-
+.construccion{
+  text-align: center;
+}
 .navbar{
     text-align: center;
 }
@@ -35,12 +37,17 @@
     padding: 200px;
 }
 
+.mp{
+  width: 100%;
+}
+
 .camisetas {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "boca river cai racing";
     padding: 20px;
     margin: 20px;
+    width: 100%;
 }
 
 .card {
@@ -51,6 +58,10 @@
     min-width: 0;
 
 }
+.card-body{
+  width: 100%;
+}
+
 
 
 .btn-primary {
