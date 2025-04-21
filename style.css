@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeza{
+    text-align: center;
+    font-size: x-large;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar-brand{
+    background-color: rgb(124, 99, 101);
+    padding: 20px;
+
+}
+
+.tittle{
+    color: #ffffff;
+
+
+}
+
+.subtitulo1{
+    text-align: center;
+    background-color: rgb(124, 99, 101);
+    color: #ffffff;
+}
+.card-img{
+    padding: 200px;
+}
+
+.camisetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "boca river cai racing";
+    padding: 20px;
+    margin: 20px;
+}
+
+.card {
+
+    display: flex
+;
+    flex-direction: column;
+    min-width: 0;
+
+}
+
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+
+.btn-primary {
+    color: #000000;
+    background-color: #ffffff;
+}
