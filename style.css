@@ -39,9 +39,7 @@
 }
 
 .camisetas {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "boca river cai racing";
+    display: flex;
     padding: 20px;
     margin: 20px;
     width: 100%;
